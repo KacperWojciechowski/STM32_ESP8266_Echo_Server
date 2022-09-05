@@ -66,7 +66,7 @@ const char* config[] = {
 		"AT+CIPMUX=1\r\n",							// Configure multiple connections
 		"AT+CIPSERVER=1,7\r\n",						// Enable server and set port to 7
 		"AT+CWMODE=?\r\n",							// Check operation mode
-		"AT+CWJAP=\"KAJA_K14583\",\"centaurr1972\"\r\n",	// Connect to WiFi with given SSID and password
+		"AT+CWJAP=\"KAJA_K14583\",\"****************\"\r\n",	// Connect to WiFi with given SSID and password
 		"AT+CIPSTA?\r\n",							// Check connection status
 		"AT+CIFSR\r\n"								// Display server IP address
 };
